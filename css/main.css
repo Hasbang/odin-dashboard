@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+Body{
+    font-family: "Roboto" serif;  
+}
+.dasboard-container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+}
+.sidebar{
+    background-color: #0ea5e9;
+    height: 100vh;
+}

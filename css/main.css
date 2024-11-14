@@ -77,7 +77,7 @@ h5{
 .header-icon{
     width: 30px;
     height: 30px;
-    fill: #333;
+    fill: #e2e8f0;
 }
 .profile{
     background: #fde047;
@@ -89,17 +89,30 @@ h5{
     font-weight: bold;
     font-size: 18px;
 }
-.header{
-  
-}
-.left-section,.{
-
-  
-
-}
-.rigth-nav{
+.header-top{
     display: flex;
-    color: #0ea5e9;
-    
+    justify-content: space-between;
+
+    padding: 15px;
+
+  
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.btn{
+    background: #e2e8f0;
+   width: 350px;
+   height: 30px;
+   border: none;
+   border-radius: 8px;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
 
 }

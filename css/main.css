@@ -11,9 +11,95 @@ Body{
 .dasboard-container{
     display: grid;
     grid-template-columns: 20% 80%;
+    
 
 }
 .sidebar{
     background-color: #0ea5e9;
     height: 100vh;
+
+}
+.dashboardIconText{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    
+    
+}
+.dashboardicon{
+    fill: white;
+    width: 60px;
+    height: 50px;
+}
+h3{
+    font-size:30px ;
+    color: white;
+    font-weight:bold;
+    margin-left: 10px;
+}
+.iconText{
+    margin-bottom: 50px;
+    
+}
+.item{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-left: 20px;
+    padding: 5px;
+
+}
+.icon{
+    fill: white;
+    width: 30px;
+    height: 30px;
+}
+h5{
+    color: white;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+/*Header Section*/
+.dashboard-main{
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.header{
+
+}
+.main-content{
+    background:#e2e8f0;
+
+}
+.header-icon{
+    width: 30px;
+    height: 30px;
+    fill: #333;
+}
+.profile{
+    background: #fde047;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.section-text{
+    font-weight: bold;
+    font-size: 18px;
+}
+.header{
+  
+}
+.left-section,.{
+
+  
+
+}
+.rigth-nav{
+    display: flex;
+    color: #0ea5e9;
+    
+
 }

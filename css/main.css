@@ -6,17 +6,19 @@
     padding: 0;
 }
 Body{
-    font-family: "Roboto" serif;  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
 }
 .dasboard-container{
     display: grid;
     grid-template-columns: 20% 80%;
+    height: 100vh;
     
 
 }
 .sidebar{
     background-color: #0ea5e9;
-    height: 100vh;
+    height: 119vh;
+    padding: 40px;
 
 }
 .dashboardIconText{
@@ -30,8 +32,8 @@ Body{
 }
 .dashboardicon{
     fill: white;
-    width: 60px;
-    height: 50px;
+    width: 70px;
+    height: 60px;
 }
 h3{
     font-size:30px ;
@@ -40,7 +42,7 @@ h3{
     margin-left: 10px;
 }
 .iconText{
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     
 }
 .item{
@@ -49,6 +51,7 @@ h3{
     align-items: center;
     margin-left: 20px;
     padding: 5px;
+    
 
 }
 .icon{
@@ -58,7 +61,7 @@ h3{
 }
 h5{
     color: white;
-    font-size: 24px;
+    font-size: 30px;
     margin-left: 10px;
 }
 
@@ -66,18 +69,13 @@ h5{
 .dashboard-main{
     display: grid;
     grid-template-rows: 20% 80%;
+    height: 100vh;
 }
-.header{
 
-}
-.main-content{
-    background:#e2e8f0;
-
-}
 .header-icon{
     width: 30px;
     height: 30px;
-    fill: #e2e8f0;
+    fill: #333;
 }
 .profile{
     background: #fde047;
@@ -88,6 +86,10 @@ h5{
 .section-text{
     font-weight: bold;
     font-size: 18px;
+}
+.header-section{
+   margin-left: 50px;
+   margin-right: 50px;
 }
 .header-top{
     display: flex;
@@ -105,7 +107,7 @@ h5{
 }
 .btn{
     background: #e2e8f0;
-   width: 350px;
+   width: 550px;
    height: 30px;
    border: none;
    border-radius: 8px;
@@ -115,4 +117,105 @@ h5{
     align-items: center;
     gap: 20px; 
 
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.user-details{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 30px;
+
+}
+.user-avatar{
+    background: #fde047;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+
+}
+h4{
+    font-size: 15px;
+
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    font-size: 24px;
+    display: flex;
+  justify-content: flex-end;
+    gap: 30px;
+    color: #fff;
+    padding: 20px;
+   
+}
+li{
+    background: #0ea5e9;
+    padding: 5px 20px;
+    border-radius: 8px;
+
+}
+.main-content{
+    height: 100vh;
+    background: #e2e8f0;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    
+
+}
+.p_icon{
+    width: 40px;
+    height: 40px;
+}
+.project-card h2{
+    font-size: 20px;
+    padding:10px
+}
+.cards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    
+  
+
+}
+.card{
+    background-color: white ;
+    padding: 20px;
+    margin: 10px;
+    border-left: 5px solid #f59e0b;
+    border-radius: 8px;
+    
+  
+}
+
+
+.card h3{
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 5px;
+
+
+
+}
+.card p{
+    font-size: 15px;
+    color: #94a3b8;
+}
+.project-icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+  
 }
